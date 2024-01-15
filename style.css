@@ -1,0 +1,107 @@
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .container {
+    flex: 1;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    color: #fff; 
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 28px;
+  }
+  
+ 
+  form {
+    margin-top: 20px;
+  }
+  
+ 
+  input {
+    padding: 8px;
+    width: 100%;
+    margin-top: 8px;
+    box-sizing: border-box;
+  }
+  
+
+  button {
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8741;
+  }
+  
+ 
+  button:disabled {
+    background-color: #a8a8a8;
+    cursor: not-allowed;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    button {
+      width: 100%;
+    }
+  }
+  
+ 
+  footer {
+    padding: 10px 0;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Add these styles to your style.css file */
+
+/* Result Styles */
+#result {
+    margin-top: 20px;
+    widows: 5px;
+    padding: 15px;
+    background-color: #212121;
+    border-radius: 8px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-weight: 300px;
+  }
+  
+  
+  #result p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  #result .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
